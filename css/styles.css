@@ -101,6 +101,7 @@ img {
     display: flex;
     align-items: center;
     margin-right: 76px;
+    padding: 24px 0;
  }
 
 .nav__logo--studio {
@@ -110,7 +111,6 @@ img {
 
 .nav__item{
     color: #2e2f42;
-    padding: 24px 0;
 }
 
 .nav__item:hover,
@@ -128,7 +128,8 @@ img {
 }
 
 .nav__link{
- color: #2e2f42;
+  color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav__link:hover,
@@ -210,16 +211,16 @@ img {
   }
 
  .visually-hidden {
-     position: absolute;
-     width: 1px;
-     height: 1px;
-     margin: -1px;
-     border: 0;
-     padding: 0;
-     white-space: nowrap;
-     clip-path: inset(100%);
-     clip: rect(0 0 0 0);
-     overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
  }
 
 .services-title {
