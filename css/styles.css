@@ -77,6 +77,12 @@ img {
     padding: 0 15px;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
@@ -109,6 +115,7 @@ img {
 
 .nav__item{
     color: #2e2f42;
+     padding: 24px 0; 
 }
 
 .nav__item:hover,
@@ -319,12 +326,10 @@ img {
 .portfolio {
     text-align: left;
     padding: 120px 0;
-    /* Відступи зверху та знизу */
 }
 
 .portfolio-title {
     margin-bottom: 72px;
-    /* Відступ між заголовком та списком */
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -340,29 +345,25 @@ img {
     flex-wrap: wrap;
     list-style: none;
     row-gap: 48px;
-    /* Відступи між рядами */
     column-gap: 24px;
-    /* Горизонтальні відступи між елементами */
     margin: 0;
 }
 
 .card {
     background-color: #fff;
     width: calc((100% - 48px) / 3);
-    /* Ширина пунктів списку */
     border: 1px solid #e7e9fc;
     border-top: none;
-    /* Відміна верхньої обводки */
 }
 
 .card-content {
     padding: 32px 16px;
-    /* Відступи від країв контейнера */
+    border: 1px solid #e7e9fc;
+
 }
 
 .title-row {
     margin-bottom: 8px;
-    /* Відступ між заголовком і параграфом */
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
