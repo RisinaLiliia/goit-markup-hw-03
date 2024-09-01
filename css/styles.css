@@ -115,6 +115,7 @@ img {
 
 .nav__item {
     list-style: none;
+    padding: 24px 0;
 }
 
 .nav__link {
@@ -123,7 +124,6 @@ img {
     font-size: 16px;
     color: #2e2f42;
     text-decoration: none;
-    padding: 24px 0;
 }
 
 .nav__link:hover,
