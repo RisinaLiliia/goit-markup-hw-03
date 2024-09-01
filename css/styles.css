@@ -78,6 +78,7 @@ img {
     background-color: #fff;
     border-bottom: 1px solid #e7e9fc;
     padding: 0px 156px;
+    margin: 0 auto;
 }
 
 .header .container {
@@ -111,11 +112,11 @@ img {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding: 24px 0;
 }
 
 .nav__item {
     list-style: none;
+    padding: 24px 0;
 }
 
 .nav__link {
@@ -311,7 +312,7 @@ img {
 }
 
 .team-info {
-    padding: 32px 16px;
+    padding: 32px 0;
     text-align: center;
 }
 
