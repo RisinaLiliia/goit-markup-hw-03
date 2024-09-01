@@ -111,11 +111,11 @@ img {
     gap: 40px;
     margin: 0;
     list-style: none;
-    padding: 24px 0;
 }
 
 .nav__item {
     list-style: none;
+    padding: 24px 0;
 }
 
 .nav__link {
