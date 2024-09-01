@@ -124,6 +124,7 @@ img {
     font-size: 16px;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .nav__link:hover,
@@ -150,7 +151,6 @@ img {
     display: flex;
     gap: 40px;
     margin: 0;
-    padding: 0;
     list-style: none;
 }
 
