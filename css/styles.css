@@ -84,10 +84,10 @@ img {
 .header .container {
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0
 }
 
 .logo {
@@ -110,13 +110,11 @@ img {
     display: flex;
     gap: 40px;
     margin: 0;
-    padding: 0;
     list-style: none;
 }
 
 .nav__item {
     list-style: none;
-    padding: 24px 0;
 }
 
 .nav__link {
@@ -125,6 +123,7 @@ img {
     font-size: 16px;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .nav__link:hover,
