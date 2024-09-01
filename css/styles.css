@@ -3,7 +3,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    margin: 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -59,7 +58,7 @@ p {
 }
 
 .container {
-    max-width: 1440px;
+    width: 1440px;
     padding:120px 156px;
     margin: 0;
     box-sizing: border-box;
@@ -78,23 +77,16 @@ img {
 .header {
     background-color: #fff;
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 156px;
+    padding: 0px 156px;
 }
 
 .header .container {
-    max-width: 1440px;
-    margin: 0 auto;
+    width: 1158px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
-}
-
-.header_nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    margin: 0
 }
 
 .logo {
@@ -119,6 +111,7 @@ img {
     margin: 0;
     padding: 0;
     list-style: none;
+    padding: 24px 0;
 }
 
 .nav__item {
@@ -131,7 +124,6 @@ img {
     font-size: 16px;
     color: #2e2f42;
     text-decoration: none;
-    padding: 24px 0;
 }
 
 .nav__link:hover,
@@ -174,11 +166,16 @@ img {
 
 /* Hero Section */
 
-.hero .container {
+.hero {
     background-color: #2e2f42;
     color: #fff;
-    text-align: center;
+    margin: 0;
     padding: 188px 0;
+    align-items: center;
+}
+
+.hero .container{
+    padding: 0 156px;
 }
 
 .hero-title {
@@ -220,6 +217,12 @@ img {
 /* Services Section */
 
 .services {
+    margin: 0;
+    padding: 120px 0;
+}
+
+.services .container {
+    padding: 0 156px;
     margin: 0;
 }
 
@@ -354,6 +357,11 @@ img {
 
 .portfolio {
     text-align: left;
+    padding: 120px 0;
+}
+
+.portfolio .container {
+    padding: 0 156px;
 }
 
 .portfolio-title {
@@ -416,17 +424,15 @@ footer {
     background-color: #2e2f42;
     color: #fff;
     margin: 0;
+    padding: 100px 0px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .footer .container {
-    padding: 100px 156px;
-    margin: 0 auto;
-    max-width: 1440px;
-    box-sizing: border-box;
-}
-
-.footer_content  .container{
-text-align: left;
+    padding: 0px 156px;
 }
 
 .footer__logo {
