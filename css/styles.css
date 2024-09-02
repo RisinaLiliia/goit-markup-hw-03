@@ -58,12 +58,11 @@ p {
 }
 
 .container {
-    width: 1440px;
-    padding:120px 156px;
-    margin: 0;
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
     box-sizing: border-box;
-    align-items: center;
-    justify-content: space-between;
 }
 
 img {
@@ -175,7 +174,9 @@ img {
 }
 
 .hero .container{
-    padding: 0 156px;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -222,8 +223,9 @@ img {
 }
 
 .services .container {
-    padding: 0 156px;
-    margin: 0;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -290,8 +292,8 @@ img {
 }
 
 .team .container {
-    max-width: 1440px;
-    padding: 0 156px;
+    max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -357,7 +359,9 @@ img {
 }
 
 .portfolio .container {
-    padding: 0 156px;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .portfolio-title {
@@ -428,7 +432,9 @@ footer {
 }
 
 .footer .container {
-    padding: 0px 156px;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .footer__logo {
